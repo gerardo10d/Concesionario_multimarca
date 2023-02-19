@@ -3,9 +3,9 @@ import React from 'react'
 
 const PrivateLayout = ({children}) => {
   return (
-    <div>
+    <div className='contenedorPrivateLayout'>
       <Sidebar />
-      {children}
+      <main>{children}</main>
     </div>
   )
 }
