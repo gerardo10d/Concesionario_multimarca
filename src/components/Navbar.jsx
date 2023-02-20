@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <ul>
+    <div className="bg-red-400">
+      <ul className="flex justify-between items-center my-3">
         <li>Logo</li>
         <li>Navegación 1</li>
         <li>Navegación 2</li>
         <li>Navegación 3</li>
-        <li id="navbar__li__botonLogin">
+        <li id="px-3">
           <Link to="login">
-            <button className="navbar__botonLogin">Iniciar sesión</button>
+            <button className="bg-indigo-500 p-2 text-white rounded-lg shadow-md hover:bg-indigo-300">Iniciar sesión</button>
           </Link>
         </li>
       </ul>

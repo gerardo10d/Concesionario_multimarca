@@ -1,15 +1,15 @@
-import Footer from 'components/Footer'
-import Navbar from 'components/Navbar'
-import React from 'react'
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
+import React from "react";
 
-const PublicLayout = ({children}) => {
+const PublicLayout = ({ children }) => {
   return (
-    <div className='contenedorPublicLayout'>
+    <div className="flex flex-col h-screen overflow-y-hidden">
       <Navbar />
-      <main>{children}</main>
+      <main className="h-full overflow-y-scroll bg-indigo-500">{children}</main>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default PublicLayout
+export default PublicLayout;

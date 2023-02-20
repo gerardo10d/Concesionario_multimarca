@@ -9,7 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom"; /* importar router */
-import "styles/styles.css";
+// import "styles/styles.css";
 
 function App() {
   return (
